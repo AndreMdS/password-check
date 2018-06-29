@@ -13,7 +13,8 @@ and open the template in the editor.
 
         <title>Password Check</title>
 
-        <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>	
+        <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+        <link th:href="@{/css/custom-style.css}" rel="stylesheet"/>
 
     </head>
     
@@ -21,13 +22,17 @@ and open the template in the editor.
         <div class="container">
             <div class="rounded border my-5">
                 <div class="col-sm-12 input-group">
-                    <input class="form-control my-3" type="text" placeholder="Senha"/>
+                    <input id="password" class="form-control my-3" type="text" placeholder="Senha"/>
                     <div class="input-group-prepend">
                         <span class="input-group-text">0%</span>
-                        <span class="input-group-text">Fraca</span>
+                        <span id="status" class="input-group-text">Vazio</span>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+        <script th:src="@{/js/main-script.js}"></script>
+        
     </body>
 </html>

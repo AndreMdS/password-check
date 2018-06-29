@@ -1,0 +1,29 @@
+.status-excelent{
+    color: #000000;
+    background-color: #1dbf0e;
+    border: 1px solid #2f8b26;
+}
+
+.status-strong{
+    color: #000000;
+    background-color: #7dee25;
+    border: 1px solid #2f8b26;
+}
+
+.status-good{
+    color: #000000;
+    background-color: #ecd70d;
+    border: 1px solid #d0c342;
+}
+
+.status-weak{
+    color: #000000;
+    background-color: #df7c39;
+    border: 1px solid #c1661b;
+}
+
+.status-worst{
+    color: #000000;
+    background-color: #da5b5b;
+    border: 1px solid #c02e2e;
+}
