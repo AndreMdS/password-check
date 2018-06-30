@@ -20,12 +20,13 @@ and open the template in the editor.
     
     <body>
         <div class="container">
-            <div class="rounded border my-5">
-                <div class="col-sm-12 input-group">
+            <div class="col-12 rounded border my-5" style="width: 600px">
+                <div class="col-sm-12 custom-text">AVALIADOR DE SEGURANÇA DE SENHA</div>
+                <div class="row input-group col-sm-12">
                     <input id="password" class="form-control my-3" type="text" placeholder="Senha"/>
                     <div class="input-group-prepend">
-                        <span class="input-group-text">0%</span>
-                        <span id="status" class="input-group-text">Vazio</span>
+                        <span id="score" class="input-group-text" style="width: 75px">0%</span>
+                        <span id="status" class="input-group-text rounded-right" style="width: 100px">Vazio</span>
                     </div>
                 </div>
             </div>

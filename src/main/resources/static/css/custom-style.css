@@ -27,3 +27,9 @@
     background-color: #da5b5b;
     border: 1px solid #c02e2e;
 }
+
+.custom-text{
+    margin-top: 5px;
+    color: #777777;
+    font-weight: bold; 
+}
